@@ -68,9 +68,7 @@ Terakhir, **Interface**, berperan sebagai kontrak yang menentukan metode apa saj
 
 Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyimpanan, pembaruan, dan pengambilan data dapat dilakukan otomatis tanpa perlu menulis SQL manual (misalnya menggunakan Hibernate atau JPA).
 
-## Flowchart
-
-## Use Case
+## Flowchart & Use Case
 
 
 ## Program Flows ⭑𓂃
