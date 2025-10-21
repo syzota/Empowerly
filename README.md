@@ -70,6 +70,9 @@ Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyi
 
 ## Flowchart & Use Case
 
+Tautan berikut menyajikan flowchart dan use case diagram yang mendukung penjelasan mengenai platform digital empowerly.
+
+🔗 https://drive.google.com/file/d/1V-OX0WB-UvoNJsZCv_x6ynBh_GEaHkps/view?usp=sharing
 
 ## Program Flows ⭑𓂃
 
