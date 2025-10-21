@@ -70,8 +70,10 @@ Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyi
 
 ## Flowchart
 
+## Use Case
+
+
 ## Program Flows ⭑𓂃
 
-## Use Case
 
 ## Graphical User Interface (GUI) —͟͟͞͞★
