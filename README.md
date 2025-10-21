@@ -2,7 +2,7 @@
 
 _Platform_ yang menghadirkan edukasi yang positif juga inspiratif untuk mencerminkan semangat pemberdayaan perempuan agar memahami hak mereka dan memperjuangkan kesetaraan. Kami menekankan nilai inti _awareness_, _action_, dan _community_.
 
-## Empowerly's Deskription .ᐟ
+## Empowerly's Description .ᐟ
 
 **Empowerly** adalah platform edukasi dan komunitas digital yang berfokus pada pemberdayaan perempuan sebagai bagian dari upaya mendukung *Sustainable Development Goals (SDG) nomor 10: Reduced Inequalities*. Program ini ditujukan bagi seluruh lapisan masyarakat untuk meningkatkan pemahaman tentang kesetaraan dan inklusi perempuan di banyak bidang. Empowerly hadir sebagai sarana edukasi menyeluruh yang mendorong kesadaran, solidaritas, dan aksi nyata dalam memperjuangkan hak serta peran perempuan di masyarakat.
 
@@ -68,7 +68,7 @@ Terakhir, **Interface**, berperan sebagai kontrak yang menentukan metode apa saj
 
 Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyimpanan, pembaruan, dan pengambilan data dapat dilakukan otomatis tanpa perlu menulis SQL manual (misalnya menggunakan Hibernate atau JPA).
 
-## Flowchart & Use Case
+## Flowchart & Use Case ⋆ˎˊ˗
 
 Tautan berikut menyajikan flowchart dan use case diagram yang mendukung penjelasan mengenai platform digital empowerly.
 
