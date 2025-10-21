@@ -55,5 +55,19 @@ Terakhir, **Interface**, berperan sebagai kontrak yang menentukan metode apa saj
 ### ☆ Data Access Object (DAO)
 
 
-- Library atau Framework yang digunakan (jika menerapkan nilai tambah)
-- Cara menggunakan program, sertakan screenshoot GUI.
+
+## Bonus Points ᯓ★
+
+### ✪ MVC
+
+### ✪ Singleton
+
+### ✪ Data Access Object (DAO)
+
+### ✪ Object Relational Mapping (ORM)
+
+Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyimpanan, pembaruan, dan pengambilan data dapat dilakukan otomatis tanpa perlu menulis SQL manual (misalnya menggunakan Hibernate atau JPA).
+
+## Program Flows ⭑𓂃
+
+## Graphical User Interface (GUI) —͟͟͞͞★
