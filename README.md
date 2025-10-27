@@ -139,15 +139,23 @@ Terdapat tiga tombol utama:
 
 <img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/d2b574eb-6f0f-4c30-8d60-7c586314b265" />
 
+### Menu Admin Komunitas
+
 <img width="1087" height="713" alt="image" src="https://github.com/user-attachments/assets/42b2d140-eb54-4109-8249-fb72c034813e" />
 
+Halaman ini adalah menu "Kelola Forum" untuk Admin Komunitas. Halaman ini berfungsi penuh untuk mengelola semua topik diskusi (CRUD). Tampilan utamanya adalah tabel yang berisi daftar semua forum (fungsi Baca). Di bagian bawah, admin memiliki tiga tombol :"Tambah Forum" untuk membuat topik baru (Create), "Edit Forum" untuk mengubah topik yang sudah dipilih (Update), dan "Hapus Forum" untuk menghapus topik tersebut (Delete).
+
+### Menu Admin Komunitas
+
 <img width="1084" height="714" alt="image" src="https://github.com/user-attachments/assets/b054527a-fa55-4ef8-aaea-ea4e183e569a" />
+
+Halaman ini adalah menu "Kelola Komentar", yang digunakan admin untuk memoderasi konten. Halaman ini menampilkan tabel berisi semua komentar dari berbagai forum, lengkap dengan isi pesan, ID forum, dan ID pengirimnya (fungsi Baca). Sesuai perannya sebagai moderator, admin dapat memilih komentar yang tidak pantas dari tabel dan menghapusnya secara permanen menggunakan tombol "Hapus Komentar" di bagian bawah (fungsi Delete).
 
 ### Menu Admin Materi
 
 <img width="1087" height="710" alt="image" src="https://github.com/user-attachments/assets/a35c4773-a615-404b-ac82-eb71116d5e94" />
 
-Halaman ini adalah menu utama untuk Admin Materi, yang berfungsi untuk mengelola semua konten pembelajaran. Halaman ini menyediakan fungsi lengkap untuk Tambah, Baca, Ubah, dan Hapus (CRUD) data materi. Tampilannya dibagi menjadi tiga bagian utama: di sebelah kiri terdapat menu navigasi ('Materi' dan 'Keluar'), di bagian tengah adalah formulir untuk memasukkan atau mengedit data (Judul, Tipe, Konten), dan di sebelah kanan adalah tabel yang menampilkan semua data materi yang sudah tersimpan. Alur kerjanya sederhana: admin menekan tombol "Tambah" untuk mengaktifkan mode input data baru (lalu "Simpan"), atau dapat memilih data langsung dari tabel untuk diperbarui ("Edit") maupun dihapus ("Hapus").
+Halaman ini adalah menu utama untuk Admin Materi, yang berfungsi untuk mengelola semua konten pembelajaran. Halaman ini menyediakan fungsi lengkap untuk Tambah, Baca, Ubah, dan Hapus (CRUD) data materi. Tampilannya dibagi menjadi tiga bagian utama: di sebelah kiri terdapat menu navigasi (Materi dan Keluar), di bagian tengah adalah formulir untuk memasukkan atau mengedit data (Judul, Tipe, Konten), dan di sebelah kanan adalah tabel yang menampilkan semua data materi yang sudah tersimpan. Alur kerjanya sederhana: admin menekan tombol "Tambah" untuk mengaktifkan mode input data baru (lalu "Simpan"), atau dapat memilih data langsung dari tabel untuk diperbarui ("Edit") maupun dihapus ("Hapus").
 
 
 
