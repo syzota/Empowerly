@@ -59,7 +59,11 @@ Di sini, kami memisahkan fungsi berdasarkan tanggung jawabnya.
 
 Berisi _class_ yang merepresentasikan data dan logika bisnis utama.
 
+Class User.java ini berfungsi sebagai model data utama yang mewakili “pengguna” dalam sistem.
+Ibaratnya, class ini kayak template atau cetakan dari data user.
+
 <img width="176" height="53" alt="image" src="https://github.com/user-attachments/assets/223cbb47-b25d-445e-92fc-974a1b7a6d23" />
+
 
 ### ☆ View (V)
 
@@ -87,7 +91,25 @@ Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPane
 
 _Package_ yang menjembatani antara _Model_ dan _View_ juga mengatur logika interaksi dan alur data antar komponen.
 
+Controller ini berperan sebagai pengatur alur logika dan interaksi antar bagian program khususnya antara model dan view. Jadi package ini yang mengatur kalau user ngelakuin sesuatu di tampilan (misalnya klik login), maka controller yang akan mengatur data mana yang diambil, dicek, dan ditampilkan.
+Berikut penjelasan tiap class pada package controller:
+
+- AbstractController.java
+
+Class ini biasanya dijadikan kelas dasar atau induk bagi controller lain.
+Dia berisi fungsi umum yang bisa dipakai di semua controller, misalnya fungsi untuk koneksi database, validasi input, atau pengaturan umum.
+
+- AuthController.java
+
+Class ini berhubungan dengan autentikasi pengguna, seperti login dan logout.
+Class ini yang akan mengatur logika bagaimana sistem memeriksa apakah username dan password yang dimasukkan itu benar, apakah user punya akses tertentu, dan bagaimana sistem menanggapinya.
+
+- IWelcomeAction.java
+
+Class ini berupa interface yang mendefinisikan perilaku atau aksi yang harus dilakukan ketika user sudah berhasil masuk (welcome page).
+
 <img width="211" height="98" alt="image" src="https://github.com/user-attachments/assets/f27a40cc-e6f9-49b5-9f88-e3df0342a955" />
+
 
 ### ☆ Utilities 
 
