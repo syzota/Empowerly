@@ -109,6 +109,9 @@ Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penje
 
 ## Program Flows ⭑𓂃 & Graphical User Interface (GUI) —͟͟͞͞★
 
+## Halaman Utama
+Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam platform Empowerly dijalankan, jadi halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi, jadi tampilannya dibuat menarik dengan nuansa pink dan tema Powerpuff Girls sebagai simbol kekuatan dan suara perempuan.
+
 <img width="1089" height="714" alt="image" src="https://github.com/user-attachments/assets/28890f54-c46e-4854-9cbb-58396ac8412c" />
 
 <img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
