@@ -67,6 +67,22 @@ Menangani bagian antarmuka pengguna atau GUI.
 
 <img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
 
+- MainFrame.java
+Kelas ini jadi jendela utama aplikasi (JFrame). MainFrame menggunakan CardLayout supaya bisa menampung dan berpindah antar panel lain seperti LoginPanel, WelcomePanel, AdminPanel, dan UserPanel. Jadi, bisa dibilang ini adalah wadah utama tempat semua tampilan aplikasi dikelola.
+- WelcomePanel.java
+Panel ini berfungsi sebagai layar pembuka atau menu utama. Saat aplikasi dijalankan, inilah tampilan pertama yang muncul. Di sini pengguna bisa memilih untuk Login, Register, atau langsung Keluar dari aplikasi.
+- LoginPanel.java
+Panel ini menampilkan antarmuka login, tempat pengguna memasukkan username dan password. Setelah data divalidasi, sistem akan mengarahkan ke panel yang sesuai — apakah itu halaman admin atau halaman user.
+- RegisterPanel.java
+Panel ini menampilkan form pendaftaran untuk pengguna baru. Di sini pengguna bisa mengisi data seperti username, password, dan umur. Setelah itu, sistem akan memvalidasi dan menyimpan data ke database.
+- UserPanel.java
+Panel ini adalah dasbor utama bagi pengguna biasa setelah berhasil login. Tampilannya dilengkapi sidebar untuk navigasi ke bagian Materi dan Forum, serta area konten yang menampilkan daftar kategori atau diskusi.
+- AdminPanel.java
+Panel ini berfungsi sebagai dasbor admin. Sistem akan otomatis mengecek apakah admin yang masuk adalah Admin Materi atau Admin Komunitas, lalu menampilkan tampilan yang sesuai. Di sini juga tersedia fitur CRUD (Tambah, Edit, Hapus) untuk mengelola data materi maupun forum.
+- BasePanel.java
+Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPanel dan AdminPanel mewarisi (extend) dari BasePanel ini, yang bertujuan untuk menerapkan konsep pewarisan (Inheritance) dan menyediakan fungsionalitas dasar yang mungkin sama untuk kedua panel tersebut.
+
+
 ### ☆ Controller (C)
 
 _Package_ yang menjembatani antara _Model_ dan _View_ juga mengatur logika interaksi dan alur data antar komponen.
