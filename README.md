@@ -127,7 +127,8 @@ Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penje
 
 <img width="1087" height="710" alt="image" src="https://github.com/user-attachments/assets/a35c4773-a615-404b-ac82-eb71116d5e94" />
 
-![Uploading image.png…]()
+<img width="1088" height="716" alt="image" src="https://github.com/user-attachments/assets/70ef1db9-4ee9-4e71-a65e-006f68637633" />
+
 
 
 
