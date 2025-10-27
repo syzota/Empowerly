@@ -1,6 +1,6 @@
 # Empowerly ✩°｡๋࣭ ⭑⚝
 
-<img width="1919" height="483" alt="image" src="https://github.com/user-attachments/assets/39ac2a56-98f7-4cf5-8183-05d7efd39f7f" />
+<img width="1919" height="478" alt="image" src="https://github.com/user-attachments/assets/021b4edc-2484-4d70-9242-3448fc6638d8" />
 
 _Platform_ yang menghadirkan edukasi yang positif juga inspiratif untuk mencerminkan semangat pemberdayaan perempuan agar memahami hak mereka dan memperjuangkan kesetaraan. Kami menekankan nilai inti _awareness_, _action_, dan _community_.
 
