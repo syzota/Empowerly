@@ -142,11 +142,19 @@ Setelah berhasil daftar, user bisa kembali ke halaman login dengan klik “Ada a
 
 <img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
 
+### Halaman Login
+
+Pada halaman ini, dari admin maupun member dapat masuk ke dalam sistem Empowerly dengan memasukkan Username dan Password, kemudian setelah selesai memasukkan data dengan benar maka selanjutnya menekan tombol Masuk. Jika data yang dimasukkan sesuai dengan yang ada di database, maka:
+
+1. Member akan diarahkan ke halaman utama yang berisi menu seperti materi, forum, dan komentar.
+
+2. Admin akan diarahkan ke halaman khusus untuk mengelola data, seperti menambah materi atau mengatur konten di platform.
+
+Selain itu, tersedia dua tombol tambahan yaitu “Belum ada akun?” untuk menuju ke halaman register bagi yang belum memiliki akun, dan “Kembali” untuk kembali ke halaman welcome.
+
 <img width="1081" height="709" alt="image" src="https://github.com/user-attachments/assets/a03f58b1-bc52-47ed-a654-596b3d1e2b72" />
 
-<img width="1091" height="716" alt="image" src="https://github.com/user-attachments/assets/c2790f50-d7d3-49f0-93f7-c09156bdbd72" />
 
-<img width="1089" height="718" alt="image" src="https://github.com/user-attachments/assets/3fd2008b-fbf0-422b-87e0-26e0243e82fc" />
 
 ### Menu User
 
