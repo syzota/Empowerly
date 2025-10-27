@@ -131,6 +131,26 @@ Kelas ini berfungsi sebagai utility utama untuk mengatur koneksi ke database. Pe
 
 Berisi _class_ yang digunakan untuk di-_run_ atau dieksekusi. Di dalam _class_ ini memanggil banyak _method_ dari kelas lain.
 
+Package ini berisi kumpulan class yang berperan sebagai titik awal atau bagian yang dapat dijalankan secara langsung dalam program. Package ini sebagai pusat kendali yang mengatur jalannya seluruh komponen aplikasi, mulai dari model, controller, hingga utilitas.
+
+Berikut penjelasan dari masing-masing class yang terdapat dalam package main:
+
+- DatabaseConnection.java
+
+Class ini berfungsi untuk mengatur dan menguji koneksi antara program dengan database secara manual. Meskipun dalam proyek ini sudah terdapat class HibernateUtil yang membantu dalam pengelolaan koneksi menggunakan framework Hibernate, class DatabaseConnection tetap digunakan untuk memastikan koneksi dasar ke database dapat berjalan dengan baik.
+
+- Empowerly.java
+
+Class Empowerly.java merupakan class utama yang menjadi titik awal eksekusi program. Di dalam class ini biasanya terdapat method public static void main, yang bertugas menjalankan keseluruhan alur aplikasi.
+
+- TestDB.java
+  
+Class ini digunakan untuk melakukan pengujian terhadap fungsi-fungsi yang berkaitan dengan database. Tujuan utama dari class ini adalah untuk memastikan bahwa proses penyimpanan, pembacaan, pembaruan, dan penghapusan data dari database dapat berjalan dengan baik tanpa menimbulkan kesalahan.
+
+- TestHibernate.java
+  
+Class TestHibernate.java digunakan untuk menguji konfigurasi framework Hibernate yang digunakan dalam aplikasi. Pengujian ini mencakup verifikasi apakah pengaturan Hibernate, seperti pembentukan session, koneksi ke database, serta pemetaan antara class Java dan tabel di database, telah berfungsi dengan benar. Class ini penting untuk memastikan integrasi Hibernate berjalan stabil sebelum sistem dijalankan secara keseluruhan.
+
 <img width="244" height="105" alt="image" src="https://github.com/user-attachments/assets/81c07022-eb5d-4d1e-8bbe-20e4b5c5212b" />
 
 ## Bonus Points ᯓ★
