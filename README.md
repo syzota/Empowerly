@@ -69,7 +69,7 @@ Menangani bagian antarmuka pengguna atau GUI.
 
 _Package_ yang menjembatani antara _Model_ dan _View_ juga mengatur logika interaksi dan alur data antar komponen.
 
-<img width="244" height="105" alt="image" src="https://github.com/user-attachments/assets/81c07022-eb5d-4d1e-8bbe-20e4b5c5212b" />
+<img width="271" height="93" alt="image" src="https://github.com/user-attachments/assets/a66d1846-a421-4c47-aac2-84a5ab8bc646" />
 
 ### ☆ Utilities 
 
@@ -81,7 +81,7 @@ Kumpulan helper _class_ atau _tools_ tambahan, di sini digunakan untuk _Hibernat
 
 Berisi _class_ yang digunakan untuk di-_run_ atau dieksekusi. Di dalam _class_ ini memanggil banyak _method_ dari kelas lain.
 
-<img width="477" height="123" alt="image" src="https://github.com/user-attachments/assets/2284c267-cc26-46b9-9da1-f613e198b12e" />
+<img width="244" height="105" alt="image" src="https://github.com/user-attachments/assets/81c07022-eb5d-4d1e-8bbe-20e4b5c5212b" />
 
 ## Bonus Points ᯓ★
 
@@ -99,7 +99,7 @@ Teknik yang menghubungkan objek Java dengan tabel database sehingga proses penyi
 
 Pola desain untuk memastikan hanya ada satu _instance_ dari _class_ koneksi yang aktif selama _runtime_.
 
-<img width="1085" height="712" alt="image" src="https://github.com/user-attachments/assets/b55e6f84-94c8-4a87-8478-20a055b6b52d" />
+<img width="477" height="123" alt="image" src="https://github.com/user-attachments/assets/2284c267-cc26-46b9-9da1-f613e198b12e" />
 
 ## Flowchart & Use Case ⋆ˎˊ˗
 
@@ -108,6 +108,12 @@ Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penje
 🔗 https://drive.google.com/file/d/1V-OX0WB-UvoNJsZCv_x6ynBh_GEaHkps/view?usp=sharing
 
 ## Program Flows ⭑𓂃 & Graphical User Interface (GUI) —͟͟͞͞★
+
+<img width="1089" height="714" alt="image" src="https://github.com/user-attachments/assets/28890f54-c46e-4854-9cbb-58396ac8412c" />
+
+<img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
+
+<img width="1081" height="709" alt="image" src="https://github.com/user-attachments/assets/a03f58b1-bc52-47ed-a654-596b3d1e2b72" />
 
 <img width="1091" height="716" alt="image" src="https://github.com/user-attachments/assets/c2790f50-d7d3-49f0-93f7-c09156bdbd72" />
 
