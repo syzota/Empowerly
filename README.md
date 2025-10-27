@@ -103,6 +103,18 @@ Pola desain untuk memastikan hanya ada satu _instance_ dari _class_ koneksi yang
 
 <img width="477" height="123" alt="image" src="https://github.com/user-attachments/assets/2284c267-cc26-46b9-9da1-f613e198b12e" />
 
+### Libraries ᯓ✮
+
+File JAR (Java Archive) merupakan format arsip yang digunakan untuk menyatukan berbagai file kelas Java (.class), pustaka eksternal, serta metadata ke dalam satu berkas terkompresi. Tujuan utama penggunaan JAR adalah untuk mempermudah distribusi, pengelolaan, dan eksekusi program Java yang terdiri dari banyak komponen.
+
+<img width="353" height="205" alt="image" src="https://github.com/user-attachments/assets/c17dd11e-4fc1-4749-b3da-66d5f4b5829e" />
+
+Dependency seperti slf4j, commons-lang3, dan protobuf-java mendukung _logging_, manipulasi string, serta komunikasi data yang efisien di dalam sistem.
+
+<img width="360" height="298" alt="image" src="https://github.com/user-attachments/assets/ebe5ae4e-927d-4f7d-a974-fc6fa2d6db7d" />
+
+_File_ .jar ini menunjukkan berbagai _library_ dan _framework_ yang digunakan dalam proyek, seperti Hibernate untuk ORM, Jakarta Persistence API untuk manajemen entitas, serta MySQL _Connector_ untuk koneksi basis data.
+
 ## Flowchart & Use Case ⋆ˎˊ˗
 
 Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penjelasan mengenai _platform_ kami.
@@ -111,22 +123,18 @@ Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penje
 
 ## Program Flows ⭑𓂃 & Graphical User Interface (GUI) —͟͟͞͞★
 
-## Halaman Utama
-Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam platform Empowerly dijalankan, jadi halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi, jadi tampilannya dibuat menarik dengan nuansa pink dan tema Powerpuff Girls sebagai simbol kekuatan dan suara perempuan.
+### Halaman Utama
+Ini adalah halaman utama (_welcome page_) saat pertama kali masuk ke dalam _platform_ Empowerly dijalankan, jadi halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi, jadi tampilannya dibuat menarik dengan nuansa pink dan tema Powerpuff Girls sebagai simbol kekuatan dan suara perempuan.
 
 Terdapat tiga tombol utama:
 
-1. Login → menuju ke halaman untuk masuk kalau member atau admin sudah punya akun.
-
-2. Register → menuju ke halaman pendaftaran akun baru (khusus member yang belum mempunyai akun).
-
-3. Keluar → menutup aplikasi.
-
+1. Login, menuju ke halaman untuk masuk kalau member atau admin sudah punya akun.
+2. Register, menuju ke halaman pendaftaran akun baru (khusus member yang belum mempunyai akun).
+3. Keluar, menutup aplikasi.
 
 <img width="1089" height="714" alt="image" src="https://github.com/user-attachments/assets/28890f54-c46e-4854-9cbb-58396ac8412c" />
 
-
-## Halaman Register (Member)
+### Halaman Register (Member)
 Halaman ini digunakan sebagai tempat member untuk membuat akun dan mendapatkan akses ke fitur Empowerly, jadi ada kolom username, password, umur. Setelah diisi, member tinggal klik tombol Register, dan data yang dimasukkan akan disimpan ke dalam database tabel member.
 
 Setelah berhasil daftar, user bisa kembali ke halaman login dengan klik “Ada akun?” untuk masuk ke sistem. Admin tidak bisa  memakai halaman ini, karena admin sudah punya akun dari sistem. Halaman register ini hanya digunakan untuk member baru yang mau bergabung ke platform Empowerly.
