@@ -156,25 +156,25 @@ Selain itu, tersedia dua tombol tambahan yaitu “Belum ada akun?” untuk menuj
 
 
 
-### Menu User
+### Menu Member
 
 <img width="1088" height="712" alt="image" src="https://github.com/user-attachments/assets/ccf4c6cb-0fd4-4732-8899-4640fc00ad81" />
 
 Halaman ini adalah menu "Materi" untuk pengguna biasa, yang berfungsi sebagai katalog untuk melihat semua materi pembelajaran. Di sebelah kiri, terdapat menu navigasi utama untuk berpindah antar panel ("Materi", "Forum", "Komentar") atau keluar dari sesi ("Keluar"). Area utama di sebelah kanan menampilkan tabel berisi seluruh daftar materi yang tersedia (Read). Saat pengguna memilih salah satu materi dari tabel, detailnya akan ditampilkan di panel tengah. Pengguna kemudian dapat menekan tombol "Lihat Konten" untuk mengakses atau melihat isi materi yang telah dipilih tersebut.
 
-### Menu User
+### Menu Member
 
 <img width="1090" height="718" alt="image" src="https://github.com/user-attachments/assets/8e17c77b-d8f4-45a2-a066-13196cd6df4b" />
 
-Halaman ini adalah menu "Forum" untuk pengguna, yang berfungsi sebagai gerbang utama untuk melihat semua topik diskusi yang tersedia. Di sebelah kiri, panel navigasi menunjukkan bahwa tab "Forum" sedang aktif, di mana pengguna juga dapat beralih ke menu "Materi", "Komentar", atau "Keluar". Bagian utama halaman ini menampilkan sebuah tabel (Read) yang merinci semua forum yang ada, lengkap dengan kolom "ID Forum", "Judul", "Deskripsi", dan "Admin" yang mengelolanya. Untuk berpartisipasi atau membaca isi diskusi, pengguna dapat memilih salah satu topik dari tabel, kemudian menekan tombol "Lihat Detail Forum & Komentar" untuk masuk ke ruang diskusi tersebut.
+Halaman ini adalah menu "Forum" untuk member, yang berfungsi sebagai gerbang utama untuk melihat semua topik diskusi yang tersedia. Di sebelah kiri, panel navigasi menunjukkan bahwa tab "Forum" sedang aktif, di mana pengguna juga dapat beralih ke menu "Materi", "Komentar", atau "Keluar". Bagian utama halaman ini menampilkan sebuah tabel (Read) yang merinci semua forum yang ada, lengkap dengan kolom "ID Forum", "Judul", "Deskripsi", dan "Admin" yang mengelolanya. Untuk berpartisipasi atau membaca isi diskusi, pengguna dapat memilih salah satu topik dari tabel, kemudian menekan tombol "Lihat Detail Forum & Komentar" untuk masuk ke ruang diskusi tersebut.
 
-### Menu User
+### Menu Member
 
 <img width="1079" height="709" alt="image" src="https://github.com/user-attachments/assets/eb864d56-75f5-418a-bfc4-2a29e9dfdb42" />
 
-Halaman ini adalah menu "Komentar", yang berfungsi untuk mengelola riwayat komentar pribadi pengguna. Panel navigasi di sebelah kiri menunjukkan bahwa tab "Komentar" sedang aktif. Area utama menampilkan tabel (Read) yang berisi daftar komentar yang telah dikirim oleh pengguna, lengkap dengan detail "Isi Komentar", "Forum" tujuan, dan "Status" kiriman. Halaman ini juga mengizinkan pengguna untuk mengelola komentar mereka sendiri; dengan memilih salah satu entri dari tabel, pengguna dapat menekan tombol "Edit Komentar" (Update) atau "Hapus Komentar" (Delete) untuk mengubah atau menghapus komentar yang telah mereka buat.
+Halaman ini adalah menu "Komentar", yang berfungsi untuk mengelola riwayat komentar pribadi member. Panel navigasi di sebelah kiri menunjukkan bahwa tab "Komentar" sedang aktif. Area utama menampilkan tabel (Read) yang berisi daftar komentar yang telah dikirim oleh pengguna, lengkap dengan detail "Isi Komentar", "Forum" tujuan, dan "Status" kiriman. Halaman ini juga mengizinkan pengguna untuk mengelola komentar mereka sendiri; dengan memilih salah satu entri dari tabel, pengguna dapat menekan tombol "Edit Komentar" (Update) atau "Hapus Komentar" (Delete) untuk mengubah atau menghapus komentar yang telah mereka buat.
 
-### Menu User
+### Menu Member
 
 <img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/d2b574eb-6f0f-4c30-8d60-7c586314b265" />
 
