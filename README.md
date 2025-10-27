@@ -123,6 +123,13 @@ Terdapat tiga tombol utama:
 
 <img width="1089" height="714" alt="image" src="https://github.com/user-attachments/assets/28890f54-c46e-4854-9cbb-58396ac8412c" />
 
+
+## Halaman Register (Member)
+Halaman ini digunakan sebagai tempat member untuk membuat akun dan mendapatkan akses ke fitur Empowerly, jadi ada kolom username, password, umur. Setelah diisi, member tinggal klik tombol Register, dan data yang dimasukkan akan disimpan ke dalam database tabel member.
+
+Setelah berhasil daftar, user bisa kembali ke halaman login dengan klik “Ada akun?” untuk masuk ke sistem. Admin tidak bisa  memakai halaman ini, karena admin sudah punya akun dari sistem. Halaman register ini hanya digunakan untuk member baru yang mau bergabung ke platform Empowerly.
+
+
 <img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
 
 <img width="1081" height="709" alt="image" src="https://github.com/user-attachments/assets/a03f58b1-bc52-47ed-a654-596b3d1e2b72" />
