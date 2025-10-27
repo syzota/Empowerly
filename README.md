@@ -112,6 +112,15 @@ Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penje
 ## Halaman Utama
 Ini adalah halaman utama (welcome page) saat pertama kali masuk ke dalam platform Empowerly dijalankan, jadi halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi, jadi tampilannya dibuat menarik dengan nuansa pink dan tema Powerpuff Girls sebagai simbol kekuatan dan suara perempuan.
 
+Terdapat tiga tombol utama:
+
+1. Login → menuju ke halaman untuk masuk kalau member atau admin sudah punya akun.
+
+2. Register → menuju ke halaman pendaftaran akun baru (khusus member yang belum mempunyai akun).
+
+3. Keluar → menutup aplikasi.
+
+
 <img width="1089" height="714" alt="image" src="https://github.com/user-attachments/assets/28890f54-c46e-4854-9cbb-58396ac8412c" />
 
 <img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
