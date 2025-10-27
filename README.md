@@ -76,9 +76,9 @@ Panel ini menampilkan antarmuka login, tempat pengguna memasukkan username dan p
 - RegisterPanel.java
 Panel ini menampilkan form pendaftaran untuk pengguna baru. Di sini pengguna bisa mengisi data seperti username, password, dan umur. Setelah itu, sistem akan memvalidasi dan menyimpan data ke database.
 - UserPanel.java
-Panel ini adalah dasbor utama bagi pengguna biasa setelah berhasil login. Tampilannya dilengkapi sidebar untuk navigasi ke bagian Materi dan Forum, serta area konten yang menampilkan daftar kategori atau diskusi.
+Panel ini adalah dasbor utama bagi pengguna biasa (member) setelah berhasil login. Tampilannya dilengkapi sidebar untuk navigasi ke bagian Materi dan Forum, serta area konten yang menampilkan daftar kategori atau diskusi.
 - AdminPanel.java
-Panel ini berfungsi sebagai dasbor admin. Sistem akan otomatis mengecek apakah admin yang masuk adalah Admin Materi atau Admin Komunitas, lalu menampilkan tampilan yang sesuai. Di sini juga tersedia fitur CRUD (Tambah, Edit, Hapus) untuk mengelola data materi maupun forum.
+Panel ini berfungsi sebagai menu admin. Sistem akan otomatis mengecek apakah admin yang masuk adalah Admin Materi atau Admin Komunitas, lalu menampilkan tampilan yang sesuai. Di sini juga tersedia fitur CRUD (Tambah, Edit, Hapus) untuk mengelola data materi maupun forum.
 - BasePanel.java
 Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPanel dan AdminPanel mewarisi (extend) dari BasePanel ini, yang bertujuan untuk menerapkan konsep pewarisan (Inheritance) dan menyediakan fungsionalitas dasar yang mungkin sama untuk kedua panel tersebut.
 
