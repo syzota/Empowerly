@@ -36,15 +36,17 @@ Ketiga, **Inheritance**, memungkinkan suatu class mewarisi atribut dan metode da
 
 ### ✮ Polymorphism
 
-Keempat, **Polymorphism**, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di _class_ lain.
+Keempat, **Polymorphism**, memberi kemampuan objek untuk memiliki banyak bentuk atau perilaku berbeda tergantung konteks penggunaannya. Metode yang sama (create, read, dll) dapat diimplementasikan dengan perilaku berbeda di _class_ lain. Misalnya di kelas Interface
 
-<img width="373" height="164" alt="image" src="https://github.com/user-attachments/assets/0e8c4129-923b-4429-b4b4-d6e290fc9830" />
+<img width="322" height="139" alt="image" src="https://github.com/user-attachments/assets/8678334d-58de-4a99-bd27-3b56059b7a07" />
 
 ### ✮ Interface
 
-Terakhir, **Interface**, berperan sebagai kontrak yang menentukan metode apa saja yang harus diimplementasikan oleh class tanpa menentukan cara implementasinya.
+Terakhir, **Interface**, berperan sebagai kontrak yang menentukan metode apa saja yang harus diimplementasikan oleh class tanpa menentukan cara implementasinya. Di program ini, _class interface_ bernama IWelcomeAction diimplementasikan di MainFrame.
 
-<img width="271" height="93" alt="image" src="https://github.com/user-attachments/assets/a66d1846-a421-4c47-aac2-84a5ab8bc646" />
+<img width="521" height="35" alt="image" src="https://github.com/user-attachments/assets/2f212a07-9c1b-43e0-887c-bd98bce02e5c" />
+
+<img width="485" height="353" alt="image" src="https://github.com/user-attachments/assets/e60070b0-9cfa-44b4-9d06-34b7f8e593b7" />
 
 ## Packages ᝰ.ᐟ
 
@@ -69,7 +71,7 @@ Menangani bagian antarmuka pengguna atau GUI.
 
 _Package_ yang menjembatani antara _Model_ dan _View_ juga mengatur logika interaksi dan alur data antar komponen.
 
-<img width="271" height="93" alt="image" src="https://github.com/user-attachments/assets/a66d1846-a421-4c47-aac2-84a5ab8bc646" />
+<img width="211" height="98" alt="image" src="https://github.com/user-attachments/assets/f27a40cc-e6f9-49b5-9f88-e3df0342a955" />
 
 ### ☆ Utilities 
 
