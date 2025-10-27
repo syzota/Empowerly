@@ -69,23 +69,29 @@ Ibaratnya, class ini kayak template atau cetakan dari data user.
 
 Menangani bagian antarmuka pengguna atau GUI.
 
-<img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
-
 - MainFrame.java
-Kelas ini jadi jendela utama aplikasi (JFrame). MainFrame menggunakan CardLayout supaya bisa menampung dan berpindah antar panel lain seperti LoginPanel, WelcomePanel, AdminPanel, dan UserPanel. Jadi, bisa dibilang ini adalah wadah utama tempat semua tampilan aplikasi dikelola.
+  
+Kelas ini jadi jendela utama aplikasi (JFrame). MainFrame menggunakan CardLayout supaya bisa menampung dan berpindah antar panel lain seperti LoginPanel, WelcomePanel, AdminPanel, dan UserPanel. Jadi, bisa dibilang ini merupakan tempat utama tempat semua tampilan aplikasi dikelola.
 - WelcomePanel.java
+  
 Panel ini berfungsi sebagai layar pembuka atau menu utama. Saat aplikasi dijalankan, inilah tampilan pertama yang muncul. Di sini pengguna bisa memilih untuk Login, Register, atau langsung Keluar dari aplikasi.
 - LoginPanel.java
-Panel ini menampilkan antarmuka login, tempat pengguna memasukkan username dan password. Setelah data divalidasi, sistem akan mengarahkan ke panel yang sesuai — apakah itu halaman admin atau halaman user.
+  
+Panel ini menampilkan antarmuka login, tempat pengguna memasukkan username dan password. Setelah data divalidasi, sistem akan mengarahkan ke panel yang sesuai, apakah itu halaman admin atau halaman user.
 - RegisterPanel.java
+  
 Panel ini menampilkan form pendaftaran untuk pengguna baru. Di sini pengguna bisa mengisi data seperti username, password, dan umur. Setelah itu, sistem akan memvalidasi dan menyimpan data ke database.
 - UserPanel.java
-Panel ini adalah dasbor utama bagi pengguna biasa (member) setelah berhasil login. Tampilannya dilengkapi sidebar untuk navigasi ke bagian Materi dan Forum, serta area konten yang menampilkan daftar kategori atau diskusi.
+  
+Panel ini adalah menu utama bagi pengguna biasa (member) setelah berhasil login. Tampilannya dilengkapi sidebar untuk navigasi ke bagian Materi dan Forum, serta area konten yang menampilkan daftar kategori atau diskusi.
 - AdminPanel.java
+  
 Panel ini berfungsi sebagai menu admin. Sistem akan otomatis mengecek apakah admin yang masuk adalah Admin Materi atau Admin Komunitas, lalu menampilkan tampilan yang sesuai. Di sini juga tersedia fitur CRUD (Tambah, Edit, Hapus) untuk mengelola data materi maupun forum.
 - BasePanel.java
+  
 Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPanel dan AdminPanel mewarisi (extend) dari BasePanel ini, yang bertujuan untuk menerapkan konsep pewarisan (Inheritance) dan menyediakan fungsionalitas dasar yang mungkin sama untuk kedua panel tersebut.
 
+<img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
 
 ### ☆ Controller (C)
 
@@ -114,6 +120,10 @@ Class ini berupa interface yang mendefinisikan perilaku atau aksi yang harus dil
 ### ☆ Utilities 
 
 Kumpulan helper _class_ atau _tools_ tambahan, di sini digunakan untuk _Hibernate_.
+
+- HibernateUtil.java
+
+Kelas ini berfungsi sebagai utility utama untuk mengatur koneksi ke database. Perannya adalah membuat dan mengelola satu objek SessionFactory menggunakan pola Singleton, agar hanya ada satu instance yang digunakan di seluruh aplikasi. Dengan begitu, koneksi Hibernate bisa diinisialisasi dengan benar dan efisien, sehingga bagian lain dari program dapat dengan mudah mengakses koneksi saat dibutuhkan.
 
 <img width="190" height="51" alt="image" src="https://github.com/user-attachments/assets/7fe69416-46fa-4e48-8ced-e04ecd3eff6d" />
 
@@ -193,48 +203,52 @@ Selain itu, tersedia dua tombol tambahan yaitu “Belum ada akun?” untuk menuj
 <img width="1081" height="709" alt="image" src="https://github.com/user-attachments/assets/a03f58b1-bc52-47ed-a654-596b3d1e2b72" />
 
 
-
 ### Menu Member
-
-<img width="1088" height="712" alt="image" src="https://github.com/user-attachments/assets/ccf4c6cb-0fd4-4732-8899-4640fc00ad81" />
 
 Halaman ini adalah menu "Materi" untuk pengguna biasa, yang berfungsi sebagai katalog untuk melihat semua materi pembelajaran. Di sebelah kiri, terdapat menu navigasi utama untuk berpindah antar panel ("Materi", "Forum", "Komentar") atau keluar dari sesi ("Keluar"). Area utama di sebelah kanan menampilkan tabel berisi seluruh daftar materi yang tersedia (Read). Saat pengguna memilih salah satu materi dari tabel, detailnya akan ditampilkan di panel tengah. Pengguna kemudian dapat menekan tombol "Lihat Konten" untuk mengakses atau melihat isi materi yang telah dipilih tersebut.
 
-### Menu Member
+<img width="1088" height="712" alt="image" src="https://github.com/user-attachments/assets/ccf4c6cb-0fd4-4732-8899-4640fc00ad81" />
 
-<img width="1090" height="718" alt="image" src="https://github.com/user-attachments/assets/8e17c77b-d8f4-45a2-a066-13196cd6df4b" />
+### Menu Member
 
 Halaman ini adalah menu "Forum" untuk member, yang berfungsi sebagai gerbang utama untuk melihat semua topik diskusi yang tersedia. Di sebelah kiri, panel navigasi menunjukkan bahwa tab "Forum" sedang aktif, di mana pengguna juga dapat beralih ke menu "Materi", "Komentar", atau "Keluar". Bagian utama halaman ini menampilkan sebuah tabel (Read) yang merinci semua forum yang ada, lengkap dengan kolom "ID Forum", "Judul", "Deskripsi", dan "Admin" yang mengelolanya. Untuk berpartisipasi atau membaca isi diskusi, pengguna dapat memilih salah satu topik dari tabel, kemudian menekan tombol "Lihat Detail Forum & Komentar" untuk masuk ke ruang diskusi tersebut.
 
-### Menu Member
+<img width="1090" height="718" alt="image" src="https://github.com/user-attachments/assets/8e17c77b-d8f4-45a2-a066-13196cd6df4b" />
 
-<img width="1079" height="709" alt="image" src="https://github.com/user-attachments/assets/eb864d56-75f5-418a-bfc4-2a29e9dfdb42" />
+### Menu Member
 
 Halaman ini adalah menu "Komentar", yang berfungsi untuk mengelola riwayat komentar pribadi member. Panel navigasi di sebelah kiri menunjukkan bahwa tab "Komentar" sedang aktif. Area utama menampilkan tabel (Read) yang berisi daftar komentar yang telah dikirim oleh pengguna, lengkap dengan detail "Isi Komentar", "Forum" tujuan, dan "Status" kiriman. Halaman ini juga mengizinkan pengguna untuk mengelola komentar mereka sendiri; dengan memilih salah satu entri dari tabel, pengguna dapat menekan tombol "Edit Komentar" (Update) atau "Hapus Komentar" (Delete) untuk mengubah atau menghapus komentar yang telah mereka buat.
 
-### Menu Member
+<img width="1079" height="709" alt="image" src="https://github.com/user-attachments/assets/eb864d56-75f5-418a-bfc4-2a29e9dfdb42" />
 
-<img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/d2b574eb-6f0f-4c30-8d60-7c586314b265" />
+### Menu Member
 
 Halaman ini adalah tampilan yang muncul setelah pengguna memilih salah satu topik dari menu forum utama. Jendela ini berfungsi sebagai ruang diskusi interaktif. Di bagian atas, halaman ini menampilkan judul forum yang spesifik (contoh: "Perlindungan Pekerja di Era Modern") beserta deskripsinya. Di bawahnya, terdapat tabel yang menampilkan semua komentar yang sudah ada dari pengguna lain (Read), lengkap dengan nama "Pengirim" dan "Isi Komentar". Di bagian paling bawah, pengguna dapat berpartisipasi dalam diskusi dengan mengetik di field "Komentar Anda:" dan mengirimkannya menggunakan tombol "Tambah Komentar" (Create).
 
-### Menu Admin Komunitas
+<img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/d2b574eb-6f0f-4c30-8d60-7c586314b265" />
 
-<img width="1087" height="713" alt="image" src="https://github.com/user-attachments/assets/42b2d140-eb54-4109-8249-fb72c034813e" />
+### Menu Admin Komunitas
 
 Halaman ini adalah menu "Kelola Forum" untuk Admin Komunitas. Halaman ini berfungsi penuh untuk mengelola semua topik diskusi (CRUD). Tampilan utamanya adalah tabel yang berisi daftar semua forum (Read). Di bagian bawah, admin memiliki tiga tombol :"Tambah Forum" untuk membuat topik baru (Create), "Edit Forum" untuk mengubah topik yang sudah dipilih (Update), dan "Hapus Forum" untuk menghapus topik tersebut (Delete).
 
-### Menu Admin Komunitas
+<img width="1087" height="713" alt="image" src="https://github.com/user-attachments/assets/42b2d140-eb54-4109-8249-fb72c034813e" />
 
-<img width="1084" height="714" alt="image" src="https://github.com/user-attachments/assets/b054527a-fa55-4ef8-aaea-ea4e183e569a" />
+
+
+### Menu Admin Komunitas
 
 Halaman ini adalah menu "Kelola Komentar", yang digunakan admin untuk memoderasi konten. Halaman ini menampilkan tabel berisi semua komentar dari berbagai forum, lengkap dengan isi pesan, ID forum, dan ID pengirimnya (Read). Sesuai perannya sebagai moderator, admin dapat memilih komentar yang tidak pantas dari tabel dan menghapusnya secara permanen menggunakan tombol "Hapus Komentar" di bagian bawah (Delete).
 
+<img width="1084" height="714" alt="image" src="https://github.com/user-attachments/assets/b054527a-fa55-4ef8-aaea-ea4e183e569a" />
+
+
+
 ### Menu Admin Materi
+
+Halaman ini adalah menu utama untuk Admin Materi, yang berfungsi untuk mengelola semua konten pembelajaran. Halaman ini menyediakan fungsi untuk Tambah, Baca, Ubah, dan Hapus (CRUD) data materi. Tampilannya dibagi menjadi tiga bagian utama: di sebelah kiri terdapat menu navigasi (Materi dan Keluar), di bagian tengah adalah formulir untuk memasukkan atau mengedit data (Judul, Tipe, Konten), dan di sebelah kanan adalah tabel yang menampilkan semua data materi yang sudah tersimpan. Alur kerjanya sederhana: admin menekan tombol "Tambah" untuk mengaktifkan mode input data baru (lalu "Simpan"), atau dapat memilih data langsung dari tabel untuk diperbarui ("Edit") maupun dihapus ("Hapus").
 
 <img width="1087" height="710" alt="image" src="https://github.com/user-attachments/assets/a35c4773-a615-404b-ac82-eb71116d5e94" />
 
-Halaman ini adalah menu utama untuk Admin Materi, yang berfungsi untuk mengelola semua konten pembelajaran. Halaman ini menyediakan fungsi untuk Tambah, Baca, Ubah, dan Hapus (CRUD) data materi. Tampilannya dibagi menjadi tiga bagian utama: di sebelah kiri terdapat menu navigasi (Materi dan Keluar), di bagian tengah adalah formulir untuk memasukkan atau mengedit data (Judul, Tipe, Konten), dan di sebelah kanan adalah tabel yang menampilkan semua data materi yang sudah tersimpan. Alur kerjanya sederhana: admin menekan tombol "Tambah" untuk mengaktifkan mode input data baru (lalu "Simpan"), atau dapat memilih data langsung dari tabel untuk diperbarui ("Edit") maupun dihapus ("Hapus").
 
 
 
