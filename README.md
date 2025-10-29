@@ -231,19 +231,13 @@ Halaman ini adalah menu "Materi" untuk pengguna biasa, yang berfungsi sebagai ka
 
 <img width="1088" height="712" alt="image" src="https://github.com/user-attachments/assets/ccf4c6cb-0fd4-4732-8899-4640fc00ad81" />
 
-### Menu Member
-
 Halaman ini adalah menu "Forum" untuk member, yang berfungsi sebagai gerbang utama untuk melihat semua topik diskusi yang tersedia. Di sebelah kiri, panel navigasi menunjukkan bahwa tab "Forum" sedang aktif, di mana pengguna juga dapat beralih ke menu "Materi", "Komentar", atau "Keluar". Bagian utama halaman ini menampilkan sebuah tabel (Read) yang merinci semua forum yang ada, lengkap dengan kolom "ID Forum", "Judul", "Deskripsi", dan "Admin" yang mengelolanya. Untuk berpartisipasi atau membaca isi diskusi, pengguna dapat memilih salah satu topik dari tabel, kemudian menekan tombol "Lihat Detail Forum & Komentar" untuk masuk ke ruang diskusi tersebut.
 
 <img width="1090" height="718" alt="image" src="https://github.com/user-attachments/assets/8e17c77b-d8f4-45a2-a066-13196cd6df4b" />
 
-### Menu Member
-
 Halaman ini adalah menu "Komentar", yang berfungsi untuk mengelola riwayat komentar pribadi member. Panel navigasi di sebelah kiri menunjukkan bahwa tab "Komentar" sedang aktif. Area utama menampilkan tabel (Read) yang berisi daftar komentar yang telah dikirim oleh pengguna, lengkap dengan detail "Isi Komentar", "Forum" tujuan, dan "Status" kiriman. Halaman ini juga mengizinkan pengguna untuk mengelola komentar mereka sendiri; dengan memilih salah satu entri dari tabel, pengguna dapat menekan tombol "Edit Komentar" (Update) atau "Hapus Komentar" (Delete) untuk mengubah atau menghapus komentar yang telah mereka buat.
 
 <img width="1079" height="709" alt="image" src="https://github.com/user-attachments/assets/eb864d56-75f5-418a-bfc4-2a29e9dfdb42" />
-
-### Menu Member
 
 Halaman ini adalah tampilan yang muncul setelah pengguna memilih salah satu topik dari menu forum utama. Jendela ini berfungsi sebagai ruang diskusi interaktif. Di bagian atas, halaman ini menampilkan judul forum yang spesifik (contoh: "Perlindungan Pekerja di Era Modern") beserta deskripsinya. Di bawahnya, terdapat tabel yang menampilkan semua komentar yang sudah ada dari pengguna lain (Read), lengkap dengan nama "Pengirim" dan "Isi Komentar". Di bagian paling bawah, pengguna dapat berpartisipasi dalam diskusi dengan mengetik di field "Komentar Anda:" dan mengirimkannya menggunakan tombol "Tambah Komentar" (Create).
 
@@ -255,15 +249,15 @@ Halaman ini adalah menu "Kelola Forum" untuk Admin Komunitas. Halaman ini berfun
 
 <img width="1087" height="713" alt="image" src="https://github.com/user-attachments/assets/42b2d140-eb54-4109-8249-fb72c034813e" />
 
-
-
 ### Menu Admin Komunitas
 
 Halaman ini adalah menu "Kelola Komentar", yang digunakan admin untuk memoderasi konten. Halaman ini menampilkan tabel berisi semua komentar dari berbagai forum, lengkap dengan isi pesan, ID forum, dan ID pengirimnya (Read). Sesuai perannya sebagai moderator, admin dapat memilih komentar yang tidak pantas dari tabel dan menghapusnya secara permanen menggunakan tombol "Hapus Komentar" di bagian bawah (Delete).
 
 <img width="1084" height="714" alt="image" src="https://github.com/user-attachments/assets/b054527a-fa55-4ef8-aaea-ea4e183e569a" />
 
+Admin Komunitas juga bisa melihat detail masing-masing komentar dengan mengklik baris komentar.
 
+<img width="1085" height="712" alt="image" src="https://github.com/user-attachments/assets/de8936ac-b8e3-4a72-b2f4-d400269b03b1" />
 
 ### Menu Admin Materi
 
