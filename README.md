@@ -196,7 +196,7 @@ Tautan berikut menyajikan _slide decks_ yang berisi poin-poin dari program kami.
 
 ## Program Flows ⭑𓂃 & Graphical User Interface (GUI) —͟͟͞͞★
 
-### Halaman Utama
+### ⍣ Halaman Utama/Register
 Ini adalah halaman utama (_welcome page_) saat pertama kali masuk ke dalam _platform_ Empowerly dijalankan, jadi halaman ini menjadi pintu masuk utama bagi user sebelum melanjutkan ke proses login atau registrasi, jadi tampilannya dibuat menarik dengan nuansa pink dan tema Powerpuff Girls sebagai simbol kekuatan dan suara perempuan.
 
 Terdapat tiga tombol utama:
@@ -212,10 +212,9 @@ Halaman ini digunakan sebagai tempat member untuk membuat akun dan mendapatkan a
 
 Setelah berhasil daftar, user bisa kembali ke halaman login dengan klik “Ada akun?” untuk masuk ke sistem. Admin tidak bisa  memakai halaman ini, karena admin sudah punya akun dari sistem. Halaman register ini hanya digunakan untuk member baru yang mau bergabung ke platform Empowerly.
 
-
 <img width="1086" height="717" alt="image" src="https://github.com/user-attachments/assets/c1fe7276-cea6-40fd-9ab0-83620238210e" />
 
-### Halaman Login
+### ⍣ Halaman Login
 
 Pada halaman ini, dari admin maupun member dapat masuk ke dalam sistem Empowerly dengan memasukkan Username dan Password, kemudian setelah selesai memasukkan data dengan benar maka selanjutnya menekan tombol Masuk. Jika data yang dimasukkan sesuai dengan yang ada di database, maka:
 
@@ -227,8 +226,7 @@ Selain itu, tersedia dua tombol tambahan yaitu “Belum ada akun?” untuk menuj
 
 <img width="1081" height="709" alt="image" src="https://github.com/user-attachments/assets/a03f58b1-bc52-47ed-a654-596b3d1e2b72" />
 
-
-### Menu Member
+### ⍣ Menu Member
 
 Halaman ini adalah menu "Materi" untuk pengguna biasa, yang berfungsi sebagai katalog untuk melihat semua materi pembelajaran. Di sebelah kiri, terdapat menu navigasi utama untuk berpindah antar panel ("Materi", "Forum", "Komentar") atau keluar dari sesi ("Keluar"). Area utama di sebelah kanan menampilkan tabel berisi seluruh daftar materi yang tersedia (Read). Saat pengguna memilih salah satu materi dari tabel, detailnya akan ditampilkan di panel tengah. Pengguna kemudian dapat menekan tombol "Lihat Konten" untuk mengakses atau melihat isi materi yang telah dipilih tersebut.
 
@@ -246,13 +244,11 @@ Halaman ini adalah tampilan yang muncul setelah pengguna memilih salah satu topi
 
 <img width="1084" height="712" alt="image" src="https://github.com/user-attachments/assets/d2b574eb-6f0f-4c30-8d60-7c586314b265" />
 
-### Menu Admin Komunitas
+### ⍣ Menu Admin Komunitas
 
 Halaman ini adalah menu "Kelola Forum" untuk Admin Komunitas. Halaman ini berfungsi penuh untuk mengelola semua topik diskusi (CRUD). Tampilan utamanya adalah tabel yang berisi daftar semua forum (Read). Di bagian bawah, admin memiliki tiga tombol :"Tambah Forum" untuk membuat topik baru (Create), "Edit Forum" untuk mengubah topik yang sudah dipilih (Update), dan "Hapus Forum" untuk menghapus topik tersebut (Delete).
 
 <img width="1087" height="713" alt="image" src="https://github.com/user-attachments/assets/42b2d140-eb54-4109-8249-fb72c034813e" />
-
-### Menu Admin Komunitas
 
 Halaman ini adalah menu "Kelola Komentar", yang digunakan admin untuk memoderasi konten. Halaman ini menampilkan tabel berisi semua komentar dari berbagai forum, lengkap dengan isi pesan, ID forum, dan ID pengirimnya (Read). Sesuai perannya sebagai moderator, admin dapat memilih komentar yang tidak pantas dari tabel dan menghapusnya secara permanen menggunakan tombol "Hapus Komentar" di bagian bawah (Delete).
 
@@ -262,7 +258,7 @@ Admin Komunitas juga bisa melihat detail masing-masing komentar dengan mengklik 
 
 <img width="1085" height="712" alt="image" src="https://github.com/user-attachments/assets/de8936ac-b8e3-4a72-b2f4-d400269b03b1" />
 
-### Menu Admin Materi
+### ⍣ Menu Admin Materi
 
 Halaman ini adalah menu utama untuk Admin Materi, yang berfungsi untuk mengelola semua konten pembelajaran. Halaman ini menyediakan fungsi untuk Tambah, Baca, Ubah, dan Hapus (CRUD) data materi. Tampilannya dibagi menjadi tiga bagian utama: di sebelah kiri terdapat menu navigasi (Materi dan Keluar), di bagian tengah adalah formulir untuk memasukkan atau mengedit data (Judul, Tipe, Konten), dan di sebelah kanan adalah tabel yang menampilkan semua data materi yang sudah tersimpan. Alur kerjanya sederhana: admin menekan tombol "Tambah" untuk mengaktifkan mode input data baru (lalu "Simpan"), atau dapat memilih data langsung dari tabel untuk diperbarui ("Edit") maupun dihapus ("Hapus").
 
