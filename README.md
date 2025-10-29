@@ -61,15 +61,16 @@ Di sini, kami memisahkan fungsi berdasarkan tanggung jawabnya.
 
 Berisi _class_ yang merepresentasikan data dan logika bisnis utama.
 
-Class User.java ini berfungsi sebagai model data utama yang mewakili “pengguna” dalam sistem.
-Ibaratnya, class ini kayak template atau cetakan dari data user.
-
 <img width="176" height="53" alt="image" src="https://github.com/user-attachments/assets/223cbb47-b25d-445e-92fc-974a1b7a6d23" />
 
+Class User.java ini berfungsi sebagai model data utama yang mewakili “pengguna” dalam sistem.
+Ibaratnya, class ini kayak template atau cetakan dari data user.
 
 ### ☆ View (V)
 
 Menangani bagian antarmuka pengguna atau GUI.
+
+<img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
 
 - MainFrame.java
   
@@ -93,14 +94,13 @@ Panel ini berfungsi sebagai menu admin. Sistem akan otomatis mengecek apakah adm
   
 Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPanel dan AdminPanel mewarisi (extend) dari BasePanel ini, yang bertujuan untuk menerapkan konsep pewarisan (Inheritance) dan menyediakan fungsionalitas dasar yang mungkin sama untuk kedua panel tersebut.
 
-<img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
-
 ### ☆ Controller (C)
 
 _Package_ yang menjembatani antara _Model_ dan _View_ juga mengatur logika interaksi dan alur data antar komponen.
 
-Controller ini berperan sebagai pengatur alur logika dan interaksi antar bagian program khususnya antara model dan view. Jadi package ini yang mengatur kalau user ngelakuin sesuatu di tampilan (misalnya klik login), maka controller yang akan mengatur data mana yang diambil, dicek, dan ditampilkan.
-Berikut penjelasan tiap class pada package controller:
+<img width="211" height="98" alt="image" src="https://github.com/user-attachments/assets/f27a40cc-e6f9-49b5-9f88-e3df0342a955" />
+
+Controller ini berperan sebagai pengatur alur logika dan interaksi antar bagian program khususnya antara model dan view. Jadi package ini yang mengatur kalau user ngelakuin sesuatu di tampilan (misalnya klik login), maka controller yang akan mengatur data mana yang diambil, dicek, dan ditampilkan. Berikut penjelasan tiap class pada package controller:
 
 - AbstractController.java
 
@@ -109,29 +109,28 @@ Dia berisi fungsi umum yang bisa dipakai di semua controller, misalnya fungsi un
 
 - AuthController.java
 
-Class ini berhubungan dengan autentikasi pengguna, seperti login dan logout.
-Class ini yang akan mengatur logika bagaimana sistem memeriksa apakah username dan password yang dimasukkan itu benar, apakah user punya akses tertentu, dan bagaimana sistem menanggapinya.
+Class ini berhubungan dengan autentikasi pengguna, seperti login dan logout. Class ini yang akan mengatur logika bagaimana sistem memeriksa apakah username dan password yang dimasukkan itu benar, apakah user punya akses tertentu, dan bagaimana sistem menanggapinya.
 
 - IWelcomeAction.java
 
 Class ini berupa interface yang mendefinisikan perilaku atau aksi yang harus dilakukan ketika user sudah berhasil masuk (welcome page).
-
-<img width="211" height="98" alt="image" src="https://github.com/user-attachments/assets/f27a40cc-e6f9-49b5-9f88-e3df0342a955" />
 
 
 ### ☆ Utilities 
 
 Kumpulan helper _class_ atau _tools_ tambahan, di sini digunakan untuk _Hibernate_.
 
+<img width="190" height="51" alt="image" src="https://github.com/user-attachments/assets/7fe69416-46fa-4e48-8ced-e04ecd3eff6d" />
+
 - HibernateUtil.java
 
 Kelas ini berfungsi sebagai utility utama untuk mengatur koneksi ke database. Perannya adalah membuat dan mengelola satu objek SessionFactory menggunakan pola Singleton, agar hanya ada satu instance yang digunakan di seluruh aplikasi. Dengan begitu, koneksi Hibernate bisa diinisialisasi dengan benar dan efisien, sehingga bagian lain dari program dapat dengan mudah mengakses koneksi saat dibutuhkan.
 
-<img width="190" height="51" alt="image" src="https://github.com/user-attachments/assets/7fe69416-46fa-4e48-8ced-e04ecd3eff6d" />
-
 ### ☆ Main
 
 Berisi _class_ yang digunakan untuk di-_run_ atau dieksekusi. Di dalam _class_ ini memanggil banyak _method_ dari kelas lain.
+
+<img width="244" height="105" alt="image" src="https://github.com/user-attachments/assets/81c07022-eb5d-4d1e-8bbe-20e4b5c5212b" />
 
 Package ini berisi kumpulan class yang berperan sebagai titik awal atau bagian yang dapat dijalankan secara langsung dalam program. Package ini sebagai pusat kendali yang mengatur jalannya seluruh komponen aplikasi, mulai dari model, controller, hingga utilitas.
 
@@ -152,8 +151,6 @@ Class ini digunakan untuk melakukan pengujian terhadap fungsi-fungsi yang berkai
 - TestHibernate.java
   
 Class TestHibernate.java digunakan untuk menguji konfigurasi framework Hibernate yang digunakan dalam aplikasi. Pengujian ini mencakup verifikasi apakah pengaturan Hibernate, seperti pembentukan session, koneksi ke database, serta pemetaan antara class Java dan tabel di database, telah berfungsi dengan benar. Class ini penting untuk memastikan integrasi Hibernate berjalan stabil sebelum sistem dijalankan secara keseluruhan.
-
-<img width="244" height="105" alt="image" src="https://github.com/user-attachments/assets/81c07022-eb5d-4d1e-8bbe-20e4b5c5212b" />
 
 ## Bonus Points ᯓ★
 
