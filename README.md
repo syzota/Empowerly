@@ -184,9 +184,15 @@ _File_ .jar ini menunjukkan berbagai _library_ dan _framework_ yang digunakan da
 
 ## Flowchart & Use Case ⋆ˎˊ˗
 
-Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penjelasan mengenai _platform_ kami.
+Tautan berikut menyajikan _flowchart_ dan _usecase diagram_ yang mendukung penjelasan konsep juga alur mengenai _platform_ kami.
 
 🔗 https://drive.google.com/file/d/1V-OX0WB-UvoNJsZCv_x6ynBh_GEaHkps/view?usp=sharing
+
+## Slide Decks ✬ ˎˊ˗
+
+Tautan berikut menyajikan _slide decks_ yang berisi poin-poin dari program kami.
+
+🔗 https://s.id/EmpowerlySlides
 
 ## Program Flows ⭑𓂃 & Graphical User Interface (GUI) —͟͟͞͞★
 
