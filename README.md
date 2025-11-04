@@ -144,16 +144,16 @@ Ibaratnya, class ini kayak template atau cetakan dari data user.
 
 ### ☆ View (V)
 
-Menangani bagian antarmuka pengguna atau GUI.
+Menangani bagian antarmuka pengguna atau GUI, tapi tetap mengandung _backend_ atau program setting.
 
-<img width="242" height="161" alt="image" src="https://github.com/user-attachments/assets/9c23775d-45e5-496a-88cf-c34d71f62045" />
+<img width="197" height="170" alt="image" src="https://github.com/user-attachments/assets/3cf57b68-6bc6-452a-9a3d-0b505b8dfea8" />
 
 - MainFrame.java
   
 Kelas ini jadi jendela utama aplikasi (JFrame). MainFrame menggunakan CardLayout supaya bisa menampung dan berpindah antar panel lain seperti LoginPanel, WelcomePanel, AdminPanel, dan UserPanel. Jadi, bisa dibilang ini merupakan tempat utama tempat semua tampilan aplikasi dikelola.
 - WelcomePanel.java
   
-Panel ini berfungsi sebagai layar pembuka atau menu utama. Saat aplikasi dijalankan, inilah tampilan pertama yang muncul. Di sini pengguna bisa memilih untuk Login, Register, atau langsung Keluar dari aplikasi.
+Di sini pengguna bisa memilih untuk Login, Register, atau langsung Keluar dari aplikasi.
 - LoginPanel.java
   
 Panel ini menampilkan antarmuka login, tempat pengguna memasukkan username dan password. Setelah data divalidasi, sistem akan mengarahkan ke panel yang sesuai, apakah itu halaman admin atau halaman user.
@@ -169,6 +169,10 @@ Panel ini berfungsi sebagai menu admin. Sistem akan otomatis mengecek apakah adm
 - BasePanel.java
   
 Merupakan class JPanel dasar yang berfungsi sebagai superclass (induk). UserPanel dan AdminPanel mewarisi (extend) dari BasePanel ini, yang bertujuan untuk menerapkan konsep pewarisan (Inheritance) dan menyediakan fungsionalitas dasar yang mungkin sama untuk kedua panel tersebut.
+
+- AboutPanel.java
+  
+Panel ini berfungsi sebagai layar pembuka atau menu utama. Saat aplikasi dijalankan, inilah tampilan pertama yang muncul. Kelas ini berisi deskripsi singkat program dan titik awal mulainya program.
 
 ### ☆ Controller (C)
 
