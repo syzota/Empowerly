@@ -16,7 +16,7 @@ Program ini berisi dua fitur utama, yaitu materi edukasi (1) dan komunitas (2). 
 
 ### The Starting Line ✮
 
-![Uploading image.png…]()
+<img width="1919" height="1153" alt="Screenshot 2025-11-04 140211" src="https://github.com/user-attachments/assets/feab6b1e-d436-4508-8e45-1a4cac539a94" />
 
 Di atas adalah _page_ awal yang menyambut pengguna. Tombol _start_ akan muncul dan mengarahkan ke halaman utama untuk masuk ke akun masing-masing.
 
